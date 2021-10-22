@@ -145,7 +145,7 @@
         <div class="recommends">
           <div class="recommendsTitle"><p>为你推荐</p></div>
           <div class="recommendsContent">
-            <!-- {{items}} -->
+            {{items}}
             <van-card
               v-for="item in items"
               :key="item.id"
@@ -154,7 +154,6 @@
               :desc="item.info"
               :title="item.text"
               :thumb="item.img"
-              v-lazy="item.img"
             >
               <template #tags>
                 <van-tag plain type="danger">{{ item.tags[0] }}</van-tag>
@@ -189,7 +188,7 @@ const useRecommendEffect = () => {
     // console.log(result)
     if (result.code === 0 && result.data) {
       data.items = result.data
-      // console.log(result.data)
+      console.log(result.data)
     }
   }
   const handelBackClick = () => {

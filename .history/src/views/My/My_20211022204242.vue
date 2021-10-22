@@ -154,7 +154,6 @@
               :desc="item.info"
               :title="item.text"
               :thumb="item.img"
-              v-lazy="item.img"
             >
               <template #tags>
                 <van-tag plain type="danger">{{ item.tags[0] }}</van-tag>

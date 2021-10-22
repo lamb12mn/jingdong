@@ -58,7 +58,7 @@
           <van-swipe-item>
             <div class="icons">
               <div class="icons__item" v-for="item in iconList" :key="item.id" @click="handelClassifyClick(item.id)">
-                <img class="icons__item__img" :src="item.img" v-lazy="item.img"/>
+                <img class="icons__item__img" :src="item.img" />
                 <p class="icons__item__desc">{{ item.name }}</p>
               </div>
             </div>

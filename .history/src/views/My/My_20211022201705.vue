@@ -45,12 +45,7 @@
         </div>
         <div class="plus">
           <!-- <img class="plus-inner" src="" alt=""> -->
-          <div class="plus-inner">
-            <div class="plus-con">
-              <div class="plus-title">每月5张运费券</div>
-            <div class="plus-subtitle">立即查看</div>
-            </div>
-          </div>
+          <div class="plus-inner"></div>
         </div>
       </div>
       <div class="content">
@@ -145,7 +140,6 @@
         <div class="recommends">
           <div class="recommendsTitle"><p>为你推荐</p></div>
           <div class="recommendsContent">
-            <!-- {{items}} -->
             <van-card
               v-for="item in items"
               :key="item.id"
@@ -154,7 +148,6 @@
               :desc="item.info"
               :title="item.text"
               :thumb="item.img"
-              v-lazy="item.img"
             >
               <template #tags>
                 <van-tag plain type="danger">{{ item.tags[0] }}</van-tag>
@@ -166,7 +159,8 @@
                   size="mini"
                   color="linear-gradient(to right, #ff6034, #ee0a24)"
                   round
-                  >详情</van-button>
+                  >详情</van-button
+                >
               </template>
             </van-card>
           </div>
@@ -225,45 +219,13 @@ export default {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    width: calc(100% - 60px);
+    width: calc(100% - 50px);
     height: 100%;
     background: url('https://img12.360buyimg.com/img/s678x99_jfs/t1/112839/2/12981/33105/5f17e12aE602bb83e/8a736742745d79cf.png') no-repeat 0 0;
     box-sizing: border-box;
-    margin: 0 30px;
+    margin: 0 25px;
     background-size: cover;
     z-index: inherit;
-    .plus-con{
-      display: flex;
-      flex: 1 0 auto;
-      font-size: 20px;
-      .plus-title{
-        position: relative;
-        padding-left: 120px;
-        margin-top: 10px;
-        flex: 1;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        max-width: 60%;
-        &::before{
-          position: absolute;
-          content: "";
-          width: 90px;
-          height: 20px;
-          left: 0;
-          top: 3px;
-          background: url(https://img12.360buyimg.com/img/s113x21_jfs/t1/132167/33/1122/2973/5ed5c74bE41e02c41/5ae83d09fff874cb.png) no-repeat 100%;
-          background-size:100% 100%;
-          margin-left: 20px;
-        }
-      }
-      .plus-subtitle{
-        background: #FCDE64;
-        padding: 10px 20px;
-        color: #26335F;
-        border-radius: 20px;
-      }
-    }
   }
 }
 </style>

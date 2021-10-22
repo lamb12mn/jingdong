@@ -145,7 +145,6 @@
         <div class="recommends">
           <div class="recommendsTitle"><p>为你推荐</p></div>
           <div class="recommendsContent">
-            <!-- {{items}} -->
             <van-card
               v-for="item in items"
               :key="item.id"
@@ -154,7 +153,6 @@
               :desc="item.info"
               :title="item.text"
               :thumb="item.img"
-              v-lazy="item.img"
             >
               <template #tags>
                 <van-tag plain type="danger">{{ item.tags[0] }}</van-tag>
@@ -166,7 +164,8 @@
                   size="mini"
                   color="linear-gradient(to right, #ff6034, #ee0a24)"
                   round
-                  >详情</van-button>
+                  >详情</van-button
+                >
               </template>
             </van-card>
           </div>
@@ -235,11 +234,11 @@ export default {
     .plus-con{
       display: flex;
       flex: 1 0 auto;
+      padding:10px 20px;
       font-size: 20px;
       .plus-title{
         position: relative;
         padding-left: 120px;
-        margin-top: 10px;
         flex: 1;
         overflow: hidden;
         text-overflow: ellipsis;
