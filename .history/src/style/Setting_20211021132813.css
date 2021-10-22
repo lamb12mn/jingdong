@@ -1,0 +1,110 @@
+
+.setting header[data-v-04b0e7e8] {
+    width: 100%;
+    height: .93333rem;
+    display: flex;
+    font-size: .4rem;
+    background: #fff;
+    border-bottom: .01333rem solid #e5e5e5
+}
+
+.setting header .iconfont[data-v-04b0e7e8] {
+    width: .93333rem;
+    height: .93333rem;
+    line-height: .93333rem;
+    text-align: center;
+    font-size: .48rem
+}
+
+.setting header .title[data-v-04b0e7e8] {
+    height: .93333rem;
+    flex: 1;
+    text-align: center;
+    line-height: .93333rem
+}
+
+.setting main .acount[data-v-04b0e7e8] {
+    width: calc(100% - .26667rem);
+    height: 3.33333rem;
+    background: #fff;
+    padding: 0 .13333rem;
+    border-bottom-right-radius: .26667rem;
+    border-bottom-left-radius: .26667rem
+}
+
+.setting main .acount p[data-v-04b0e7e8] {
+    font-size: .4rem;
+    height: .93333rem;
+    line-height: .93333rem
+}
+
+.setting main .acount .acountInfo[data-v-04b0e7e8] {
+    width: 100%;
+    height: 2rem;
+    border: .01333rem solid #ff414e;
+    border-radius: .26667rem
+}
+
+.setting main .acount .acountInfo p[data-v-04b0e7e8] {
+    font-size: .26667rem;
+    height: .4rem;
+    border-radius: .26667rem;
+    width: calc(100% - .06667rem);
+    line-height: .26667rem;
+    margin-top: .13333rem;
+    text-align: right;
+    color: #ff414e;
+    background: #fff
+}
+
+.setting main .acount .acountInfo p span[data-v-04b0e7e8] {
+    background: #ffe4e4;
+    padding: .06667rem .13333rem;
+    border-radius: .13333rem;
+    margin-left: -.06667rem
+}
+
+.setting main .acount .acountInfo .userInfo[data-v-04b0e7e8] {
+    width: calc(100% - .26667rem);
+    height: 1.06667rem;
+    display: flex;
+    margin: 0 .13333rem
+}
+
+.setting main .acount .acountInfo .userInfo .atavar[data-v-04b0e7e8] {
+    width: 1.06667rem;
+    height: 1.06667rem;
+    border-radius: 50%;
+    margin-left: .26667rem
+}
+
+.setting main .acount .acountInfo .userInfo .atavar img[data-v-04b0e7e8] {
+    width: 100%;
+    height: 100%
+}
+
+.setting main .acount .acountInfo .userInfo .info[data-v-04b0e7e8] {
+    flex: 1;
+    margin-left: .13333rem
+}
+
+.setting main .acount .acountInfo .userInfo .info p[data-v-04b0e7e8] {
+    text-align: left;
+    padding-left: .13333rem;
+    line-height: .53333rem;
+    height: .53333rem;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    color: grey
+}
+
+.setting main .content[data-v-04b0e7e8] {
+    width: 100%;
+    height: 6.66667rem;
+    margin-top: .26667rem
+}
+
+.setting main .content .contentItem[data-v-04b0e7e8] {
+    border-radius: .13333rem
+}

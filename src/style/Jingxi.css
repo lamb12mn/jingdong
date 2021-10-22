@@ -1,0 +1,44 @@
+.jingxi header {
+    width: 100%;
+    height: 5.33333rem
+}
+
+.jingxi header img {
+    width: 100%;
+    height: 100%
+}
+
+.jingxi main {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-top-right-radius: .26667rem;
+    border-top-left-radius: .26667rem;
+    margin-top: -.26667rem
+}
+
+.jingxi main .banner {
+    width: calc(100% - .4rem);
+    height: 2.66667rem;
+    padding: .13333rem .2rem;
+    margin-top: .26667rem
+}
+
+.jingxi main .banner img {
+    width: 100%;
+    height: 100%;
+    border-radius: .26667rem
+}   
+
+.jingxi main .content {
+    width: calc(100% - .4rem);
+    padding: .13333rem .2rem;
+    height:auto;
+    margin-bottom: 0.8rem;
+}
+
+.jingxi main .content .titleTab {
+    margin-left: .33333rem;
+    line-height: .93333rem
+}
