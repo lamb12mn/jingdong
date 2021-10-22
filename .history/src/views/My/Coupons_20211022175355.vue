@@ -3,11 +3,11 @@
         <Nav message="我的优惠券" @click="handelBackClick"></Nav>
         <main>
           <!-- 优惠券单元格 -->
-<van-coupon-cell
+<!-- <van-coupon-cell
   :coupons="coupons"
   :chosen-coupon="chosenCoupon"
   @click="showList = true"
-/>
+/> -->
 <!-- 优惠券列表 -->
 <van-popup
   v-model:show="showList"

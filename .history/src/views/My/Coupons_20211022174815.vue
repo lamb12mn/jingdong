@@ -46,36 +46,23 @@ export default {
       startAt: 1489104000,
       endAt: 1514592000,
       valueDesc: '1.5',
-      unitDesc: '元'
-    }
+      unitDesc: '元',
+    };
 
-    const coupons = ref([coupon])
-    const showList = ref(false)
-    const chosenCoupon = ref(-1)
+    const coupons = ref([coupon]);
+    const showList = ref(false);
+    const chosenCoupon = ref(-1);
 
     const onChange = (index) => {
-      showList.value = false
-      chosenCoupon.value = index
-    }
+      showList.value = false;
+      chosenCoupon.value = index;
+    };
     const onExchange = (code) => {
-      coupons.value.push(coupon)
-    }
-    return {
-      message,
-      handelBackClick,
-      coupons,
-      showList,
-      onChange,
-      onExchange,
-      chosenCoupon,
-      disabledCoupons: [coupon]
-    }
+      coupons.value.push(coupon);
+    };
+    return { message, handelBackClick }
   }
 }
 </script>
-<style lang="scss" scoped>
-main{
-  width: 100%;
-  height: 100%;
-}
+<style>
 </style>

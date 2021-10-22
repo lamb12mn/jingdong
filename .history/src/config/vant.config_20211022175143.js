@@ -1,4 +1,4 @@
-import { CouponCell, CouponList, ActionBar, ActionBarIcon, ActionBarButton, Popover, Lazyload, Badge, Checkbox, CheckboxGroup, Popup, Icon, Sidebar, Tab, SidebarItem, Tabs, TreeSelect, CountDown, Search, Button, List, Cell, Tag, CellGroup, Toast, Swipe, SwipeItem, Grid, GridItem, Tabbar, TabbarItem, Image as VanImage, Card, SubmitBar } from 'vant'
+import { CouponCell,Popover , CouponList, ActionBar, ActionBarIcon, ActionBarButton, Popover, Lazyload, Badge, Checkbox, CheckboxGroup, Popup, Icon, Sidebar, Tab, SidebarItem, Tabs, TreeSelect, CountDown, Search, Button, List, Cell, Tag, CellGroup, Toast, Swipe, SwipeItem, Grid, GridItem, Tabbar, TabbarItem, Image as VanImage, Card, SubmitBar } from 'vant'
 
 export function vant (app) {
   app.use(Lazyload, {

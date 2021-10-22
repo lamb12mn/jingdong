@@ -50,7 +50,7 @@ export default {
     }
 
     const coupons = ref([coupon])
-    const showList = ref(false)
+    const showList = ref(true)
     const chosenCoupon = ref(-1)
 
     const onChange = (index) => {
