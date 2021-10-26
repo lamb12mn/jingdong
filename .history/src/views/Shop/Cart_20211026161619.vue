@@ -7,7 +7,7 @@
     </header>
     <main>
       <div class="opearor">
-        <div class="opearor-location iconfont">&#xe8ae;江西南昌</div>
+        <div class="opearor-location iconfont">&#xe8ae;九江</div>
         <div class="opearor-edit" @click="(()=>{itemShow =!itemShow})" v-html="itemShow ?`数量:${total}`:'编辑商品'"></div>
       </div>
       <div class="content">
